@@ -2,7 +2,9 @@ PlainTu.be
 ==============
 
 A simpler alternative to Youtube Design. Built with EmberJS
-Note: These code is sperimental.
+** Note: The code is sperimental - work in progress.
+
+Demo: http://plaintu.be
 
 Running
 -------
@@ -57,3 +59,8 @@ Or you can run the tests via:
 If you want to continuously run the tests every time a file changes, invoke:
 
     $ bundle exec guard
+
+License
+-
+
+Cup of coffee.
