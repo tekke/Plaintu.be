@@ -1,8 +1,7 @@
 PlainTu.be
 ==============
 
-A simpler alternative to Youtube Design. Built with EmberJS
-** Note: The code is sperimental - work in progress.
+A simpler alternative to Youtube Design.<br /> Built with EmberJS<br/>* Note: The code is sperimental - work in progress.
 
 Demo: http://plaintu.be
 
