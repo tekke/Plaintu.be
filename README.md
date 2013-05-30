@@ -1,7 +1,8 @@
-Ember Skeleton
+PlainTu.be
 ==============
 
-A skeleton application framework using Ember.js and Rake Pipeline.
+A simpler alternative to Youtube Design. Built with EmberJS
+Note: These code is sperimental.
 
 Running
 -------
@@ -12,7 +13,7 @@ Running
 App Structure
 -------------
 
-    ember-skeleton
+    PlainTu.be
     ├── Assetfile - App build file
     ├── Gemfile - Package dependencies for rakep/rack
     ├── Gemfile.lock - Here be dragons: don't touch, always include
