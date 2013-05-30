@@ -1,0 +1,9 @@
+{{#if isRepeating}}
+  <span class="hint--top" data-hint="Toggles Auto Repeat On / Off"> 
+      <button class="btn btn-mini" {{action 'notRepeating'}}><i class='icon-repeat'></i> is On</button></span><br/>
+       {{repeatEmbeddingBy id}}
+    {{else}}
+    <span class="hint--top" data-hint="Toggles Auto Repeat On / Off"> 
+      <button class="btn btn-mini" {{action 'repeat'}} alt="Auto Repeat"><i class='icon-repeat'></i> is Off</button></span>
+      {{embeddingBy id}}
+    {{/if}}

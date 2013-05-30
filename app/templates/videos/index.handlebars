@@ -1,0 +1,44 @@
+<div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3">
+        
+        
+       
+        {{#if App.searchResultsController.isSearching}}
+       {{loadingImg}}
+        {{/if}}
+        
+        
+
+{{#each App.searchResultsController}}
+ <div class="row-fluid img-frame">
+<div class="span12 frame">
+<div class="frame">
+ {{#linkTo 'video' this}}
+{{imageBy id}}
+<span class="play">
+<span></span>
+</span>
+{{/linkTo}}
+</div>
+<ul>
+<li class="frame-feature">{{title}}</li>
+</ul>
+</div>
+</div>
+<br/>
+ {{/each}}
+
+ <div id="start-index">10</div>
+        </div>
+        <div class="span9">
+        <div class="right-content-fixed">
+        	{{outlet}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+

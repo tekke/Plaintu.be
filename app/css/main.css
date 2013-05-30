@@ -1,0 +1,328 @@
+/*----------------------------------------Wilkin Novo-----------------------------------*/
+/*  Main CSS */
+/*--------------------------------------------------------------------------------------*/
+
+html, body {
+padding-bottom: 40px;
+padding-top: 40px;
+}
+
+.brand
+{
+position: relative;
+width: 40px;
+left: 48.5%;
+top: 10px;
+text-align: center;
+
+font-family: 'Aguafina Script', cursive;
+text-decoration: none;
+
+    
+}
+.tube{
+  font-family: 'arial', cursive;
+  color: #BA0D18;
+
+}
+.pull-right{
+  margin-top: 10px;
+  
+}
+.about-info:hover{
+  color: #BA0D18;
+
+}
+
+
+.video-wrapper {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-wrapper iframe,
+.video-wrapper object,
+.video-wrapper embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+div.navbar-inner {
+    height: 70px;
+
+}
+
+.right-content-fixed {
+    
+position:fixed;
+width: 73%;
+
+}
+
+.sidebar-nav-fixed {
+position:fixed;
+top:5px;
+left:45px;
+z-index: 1900;
+}
+
+
+
+
+
+input[type=text]{
+      font-size:17.5px;
+      border-right:0.7px solid #ccc;
+      border-left:0.7px solid #ccc;
+      border-bottom:0.7px solid #ccc;
+      border-top: 0px solid #F9F9F9;
+      background: #F8F8F8;
+      padding: 4px 6px;
+      line-height: 37px;
+      height: 52px;
+      width: 20%;
+      border-radius: 4px;
+      z-index: 99;
+      text-align: center;
+      margin-top: 5px;
+      margin-left: -25px;
+      
+}
+input[type=text]:focus{
+      border-color:#BA0D18;
+      -moz-box-shadow-left: 0px 0px 6px #BA0D18;
+      -webkit-box-shadow: 0px 0px 6px #BA0D18;
+      box-shadow: 0px 0px 6px #BA0D18;
+}
+
+.active { 
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+.active .play {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	border:3px solid #F9F9F9;
+	top: -35px;
+	border-radius: 60px;
+	left: 165px;
+  background: #F9F9F9;
+  background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+}
+
+
+.active .play span {
+	position: absolute;
+	width: 0;
+	height: 0;
+	/*border-top: 0px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 28px solid #F9F9F9;*/
+  border: solid #BA0D18 20px;
+ 
+	top: 19px;
+	left: 20px;
+}
+
+
+.text_truncated {
+    text-overflow: ellipsis;
+    display: inline-block;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.btn-group{
+  left:30px;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom: auto; 
+  margin-top: auto;
+}
+
+#start-index{
+  display: none;
+}
+
+* {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+
+.img-frame .frame {
+border-radius: 5px;
+text-align: center;
+background-color: #f3f3f3;
+-moz-box-shadow: 0 0 6px 2px #b0b2ab;
+-webkit-box-shadow: 0 0 6px 2px #b0b2ab;
+box-shadow: 0 0 6px 2px #b0b2ab;
+}
+.frame:hover {
+background-color: #fff;
+-moz-box-shadow: 0 0 12px 3px #b0b2ab;
+-webkit-box-shadow: 0 0 12px 3px #b0b2ab;
+box-shadow: 0 0 12px 3px #b0b2ab;
+}
+.frame {
+
+color: #000;
+background-color: #5e5f59;
+-moz-border-radius: 5px 5px 0 0;
+-webkit-border-radius: 5px 5px 0 0;
+border-radius: 5px 5px 0 0;
+}
+.frame-img {
+padding: 10px;
+color: #fff;
+
+background-color: rgba(2, 20, 0, 0.1);
+-moz-border-radius: 5px 5px 0 0;
+-webkit-border-radius: 5px 5px 0 0;
+border-radius: 5px 5px 0 0;
+}
+
+.frame-img-box {
+padding: 20px;
+color: #fff;
+background-color: #000;
+-moz-border-radius: 5px 5px 0 0;
+-webkit-border-radius: 5px 5px 0 0;
+border-radius: 5px 5px 0 0;
+}
+.img-frame .frame .frame-n span {
+font-size: 20px;
+}
+.img-frame .frame ul {
+list-style: none;
+margin: 0;
+-moz-border-radius: 0 0 5px 5px;
+-webkit-border-radius: 0 0 5px 5px;
+border-radius: 0 0 5px 5px;
+}
+.img-frame .frame ul li.frame-feature {
+padding: 15px 10px;
+border-top: 1px solid #c5c8c0;
+}
+.frame-column {
+margin: 0 auto;
+width: 100%;
+}
+.frame-variable-height .frame {
+float: none;
+margin-left: 2%;
+vertical-align: bottom;
+display: inline-block;
+zoom:1;
+*display:inline;
+}
+.frame-mouseover .frame-n {
+background-color: #4e9a06 !important;
+}
+
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    background-color: #EDE8E8;
+    background-image: none;
+    padding: 0px;
+    border: 0px; 
+    margin: 0px;
+    border-radius: 0;
+
+}
+
+
+/*----------------------------------------Wilkin Novo-----------------------------------*/
+/*  Media Queries */
+/*--------------------------------------------------------------------------------------*/
+
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+
+
+.active .play {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border:3px solid #F9F9F9;
+  top: -35px;
+  border-radius: 60px;
+  left: 105px;
+  background: #F9F9F9;
+  background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+}
+.sidebar-nav-fixed {
+position:fixed;
+top:5px;
+left:35px;
+z-index: 1900;
+}
+}
+
+@media (min-width: 979px) and (max-width: 1199px) {
+
+.active .play {
+  
+  left: 70px;
+
+}
+}
+
+
+@media (min-width: 980px) { }
+
+@media (max-width: 979px) { 
+
+  .active .play {
+  
+  left: 45px;
+  
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) { 
+.active .play{
+  left: 30px;
+}
+}
+
+@media (max-width: 767px) { 
+   
+.active .play {
+  
+  left: 20px;
+
+}
+}
+
+@media (max-width: 480px) { 
+.active .play {
+  
+  left: 10px;
+  
+}
+  
+}
+
+@media (max-width: 320px) { 
+.active .play {
+  
+  left: 5px;
+  
+}
+}

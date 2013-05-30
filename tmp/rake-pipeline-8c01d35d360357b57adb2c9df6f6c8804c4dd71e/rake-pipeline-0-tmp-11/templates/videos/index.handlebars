@@ -1,0 +1,6 @@
+
+loader.register('plain_tube/~templates/videos/index', function(require) {
+
+return Ember.Handlebars.compile("<div class=\"container-fluid\">\n      <div class=\"row-fluid\">\n        <div class=\"span3\">\n        \n        \n       \n        {{#if App.searchResultsController.isSearching}}\n       {{loadingImg}}\n        {{/if}}\n        \n        \n\n{{#each App.searchResultsController}}\n <div class=\"row-fluid img-frame\">\n<div class=\"span12 frame\">\n<div class=\"frame\">\n {{#linkTo 'video' this}}\n{{imageBy id}}\n<span class=\"play\">\n<span></span>\n</span>\n{{/linkTo}}\n</div>\n<ul>\n<li class=\"frame-feature\">{{title}}</li>\n</ul>\n</div>\n</div>\n<br/>\n {{/each}}\n\n <div id=\"start-index\">10</div>\n        </div>\n        <div class=\"span9\">\n        <div class=\"right-content-fixed\">\n        \t{{outlet}}\n          </div>\n        </div>\n      </div>\n    </div>\n\n\n\n\n");
+
+});

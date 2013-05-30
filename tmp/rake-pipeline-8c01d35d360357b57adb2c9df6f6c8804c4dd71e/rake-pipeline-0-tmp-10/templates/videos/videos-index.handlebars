@@ -1,0 +1,2 @@
+
+return Ember.Handlebars.compile("{{view App.indexVideos}}\n <div class=\"row-fluid img-frame frame-column\">\n {{#each App.videosAtIndexController}}\n<div class=\"span3 frame\">\n<div class=\"frame-img-box\">\n {{#linkTo 'video' this}}\n{{imageBy id}}\n<span class=\"frame\">\n<span></span>\n</span>\n{{/linkTo}}\n\n</div>\n<ul>\n<li class=\"frame-feature text_truncated\">{{title}}</li>\n</ul>\n</div>\n {{/each}}\n</div> \n{{loadingImg}}\n");

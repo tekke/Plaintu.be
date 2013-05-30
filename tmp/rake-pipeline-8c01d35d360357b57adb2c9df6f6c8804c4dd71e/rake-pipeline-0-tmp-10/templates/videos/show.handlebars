@@ -1,0 +1,2 @@
+
+return Ember.Handlebars.compile("{{#if isRepeating}}\n  <span class=\"hint--top\" data-hint=\"Toggles Auto Repeat On / Off\"> \n      <button class=\"btn btn-mini\" {{action 'notRepeating'}}><i class='icon-repeat'></i> is On</button></span><br/>\n       {{repeatEmbeddingBy id}}\n    {{else}}\n    <span class=\"hint--top\" data-hint=\"Toggles Auto Repeat On / Off\"> \n      <button class=\"btn btn-mini\" {{action 'repeat'}} alt=\"Auto Repeat\"><i class='icon-repeat'></i> is Off</button></span>\n      {{embeddingBy id}}\n    {{/if}}");

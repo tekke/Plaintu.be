@@ -1,0 +1,15 @@
+<nav role="navigation" class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+    	 {{view App.SearchBox  id="search-box" type="text" placeholder="Type / Select then hit 'Enter'"}}
+      {{#linkTo 'videos'}}<div class="brand">Plain <div class="tube">Tube</div></div>{{/linkTo}}
+      
+      <div class="pull-right">
+        {{#linkTo 'about' }}<button class="btn about-info"><i class="icon-info-sign"></i></button>{{/linkTo}}
+        </div>
+    </div>
+  </div>
+</nav>
+<div id="main" role="main" class="container-fluid">
+  {{outlet}}
+</div>

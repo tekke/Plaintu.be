@@ -1,0 +1,6 @@
+
+loader.register('plain_tube/~templates/application', function(require) {
+
+return Ember.Handlebars.compile("<nav role=\"navigation\" class=\"navbar navbar-fixed-top\">\n  <div class=\"navbar-inner\">\n    <div class=\"container-fluid\">\n    \t {{view App.SearchBox  id=\"search-box\" type=\"text\" placeholder=\"Type / Select then hit 'Enter'\"}}\n      {{#linkTo 'videos'}}<div class=\"brand\">Plain <div class=\"tube\">Tube</div></div>{{/linkTo}}\n      \n      <div class=\"pull-right\">\n        {{#linkTo 'about' }}<button class=\"btn about-info\"><i class=\"icon-info-sign\"></i></button>{{/linkTo}}\n        </div>\n    </div>\n  </div>\n</nav>\n<div id=\"main\" role=\"main\" class=\"container-fluid\">\n  {{outlet}}\n</div>");
+
+});

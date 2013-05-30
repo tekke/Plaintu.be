@@ -1,0 +1,20 @@
+{{view App.indexVideos}}
+ <div class="row-fluid img-frame frame-column">
+ {{#each App.videosAtIndexController}}
+<div class="span3 frame">
+<div class="frame-img-box">
+ {{#linkTo 'video' this}}
+{{imageBy id}}
+<span class="frame">
+<span></span>
+</span>
+{{/linkTo}}
+
+</div>
+<ul>
+<li class="frame-feature text_truncated">{{title}}</li>
+</ul>
+</div>
+ {{/each}}
+</div> 
+{{loadingImg}}
